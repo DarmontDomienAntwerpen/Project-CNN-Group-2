@@ -349,9 +349,8 @@ Each architectural improvement should yield measurable gains. Transfer learning 
 
 ```
 .
-├── main_9_models.ipynb     # Main notebook with all 9 models
-├── README.md               # This file
-└── cnn_models_summary.html # Visual architecture overview
+├── main.ipynb              # Main notebook with all 9 models
+└── README.md               # This file
 ```
 
 Models are persisted to Google Drive under `MyDrive/cnn_models/` as `.keras` files and reloaded automatically on subsequent runs to avoid redundant training.
